@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-10T12:22:41.541Z</updated>
+  <updated>2020-08-10T15:48:27.371Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test2</title>
+    <link href="http://yoursite.com/2020/08/10/test2/"/>
+    <id>http://yoursite.com/2020/08/10/test2/</id>
+    <published>2020-08-10T15:48:27.000Z</published>
+    <updated>2020-08-10T15:48:27.371Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2020/08/10/test/"/>
+    <id>http://yoursite.com/2020/08/10/test/</id>
+    <published>2020-08-10T15:21:29.000Z</published>
+    <updated>2020-08-10T16:07:42.048Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="OS-Course-Design"><a href="#OS-Course-Design" class="headerlink" title="OS-Course-Design"></a>OS-Course-Design</h1><h2 id="实验环境"><a href="#实验环境" class="headerlink" title="实验环境"></a>实验环境</h2><p>操作系统: Ubuntu 64位 18.10</p><p>Linux内核版本: 4.17.8</p><p>CMake最低版本:  3.10</p><h2 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h2><p>编译环境已经在CMakeLists.txt中配置，直接通过cmake编译，编译命令如下</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mkdir build</span><br><span class="line">cd build</span><br><span class="line">cmake ..</span><br><span class="line">make</span><br></pre></td></tr></table></figure><p>编译生成实验一的两个可执行文件 copy 和 procUI<br>实验二的两个测试程序 testhello 和 testcopy<br>以及实验四的可执行文件 myw_sysmonitor</p><h2 id="EXP1-LINUX-UI"><a href="#EXP1-LINUX-UI" class="headerlink" title="EXP1-LINUX_UI"></a>EXP1-LINUX_UI</h2><ol><li>运行格式: <code>./copy &lt;source_file&gt; &lt;target_file&gt;</code></li><li>运行格式: <code>./procUI </code>（gtk2+）</li></ol><h2 id="EXP2-SYSCALL"><a href="#EXP2-SYSCALL" class="headerlink" title="EXP2-SYSCALL"></a>EXP2-SYSCALL</h2><p>增添系统指令过程中修改的文件包括：<br>系统调用表：arch_x86_entry_syscalls_syscall_64.tbl<br>系统调用服务例程：kernel/sys.c </p><p>添加了两个系统调用myhello以及mycopy，</p><ul><li>myhello：简单的输出</li><li>mycopy：文件拷贝</li></ul><h2 id="EXP3-Device-Driver"><a href="#EXP3-Device-Driver" class="headerlink" title="EXP3-Device_Driver"></a>EXP3-Device_Driver</h2><p>设备驱动程序及Makefile均在该文件夹下的myw_dev目录下。</p><p>测试程序有待改进</p><h2 id="EXP4-System-monitor"><a href="#EXP4-System-monitor" class="headerlink" title="EXP4-System_monitor"></a>EXP4-System_monitor</h2><p>运行：<code>./myw_sysmonitor</code></p><p><strong>功能大体完善，有几个页面有待改进</strong></p><h2 id="EXP5-File-System"><a href="#EXP5-File-System" class="headerlink" title="EXP5-File_System"></a>EXP5-File_System</h2><p>在build目录下运行 <code>./mywfs</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;OS-Course-Design&quot;&gt;&lt;a href=&quot;#OS-Course-Design&quot; class=&quot;headerlink&quot; title=&quot;OS-Course-Design&quot;&gt;&lt;/a&gt;OS-Course-Design&lt;/h1&gt;&lt;h2 id=&quot;实验环境&quot;&gt;&lt;a </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2020/08/10/hello-world/"/>
     <id>http://yoursite.com/2020/08/10/hello-world/</id>
     <published>2020-08-10T05:31:29.857Z</published>
     <updated>2020-08-10T12:22:41.541Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
       
