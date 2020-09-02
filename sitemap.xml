@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/09/02/%E5%89%91%E6%8C%87offer-Test31-Test68/</loc>
+    
+    <lastmod>2020-09-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/08/24/%E5%89%91%E6%8C%87Offer-Test02-Test30/</loc>
     
     <lastmod>2020-08-24</lastmod>
@@ -39,7 +46,7 @@
 
   <url>
     <loc>http://yoursite.com/</loc>
-    <lastmod>2020-08-24</lastmod>
+    <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,14 +54,14 @@
   
   <url>
     <loc>http://yoursite.com/tags/Java/</loc>
-    <lastmod>2020-08-24</lastmod>
+    <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/%E5%89%91%E6%8C%87Offer/</loc>
-    <lastmod>2020-08-24</lastmod>
+    <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
