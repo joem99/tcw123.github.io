@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-05T12:44:32.496Z</updated>
+  <updated>2020-09-05T12:46:09.877Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/09/05/%E5%9C%A8Mac%E4%B8%8A%E7%BC%96%E8%BE%91uniquecv%E6%9D%A5%E5%88%B6%E4%BD%9C%E7%AE%80%E5%8E%86/"/>
     <id>http://yoursite.com/2020/09/05/%E5%9C%A8Mac%E4%B8%8A%E7%BC%96%E8%BE%91uniquecv%E6%9D%A5%E5%88%B6%E4%BD%9C%E7%AE%80%E5%8E%86/</id>
     <published>2020-09-05T12:24:47.000Z</published>
-    <updated>2020-09-05T12:44:32.496Z</updated>
+    <updated>2020-09-05T12:46:09.877Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="在Mac上编辑uniquecv"><a href="#在Mac上编辑uniquecv" class="headerlink" title="在Mac上编辑uniquecv"></a>在Mac上编辑uniquecv</h1><p>最近在准备秋招简历，用到了大🔥用了都说好的简历模版<a href="https://github.com/dyinnz/uniquecv">uniquecv</a>。<br>这个简历模版是使用LaTex编写的，因为之前没有用过LaTex，所以想要编辑这份简历模版还需要进行一下配置。</p><h2 id="安装MacTex"><a href="#安装MacTex" class="headerlink" title="安装MacTex"></a>安装MacTex</h2><p>因为我本人用的是<em>mac系统</em>，所以选择<a href="http://www.tug.org/mactex/downloading.html">MacTex</a>作为LaTex的编译器，为了省事直接下载了完整版，要是下载Basic版本的话可以还需要添加一些依赖包。</p><h2 id="安装Texpad"><a href="#安装Texpad" class="headerlink" title="安装Texpad"></a>安装Texpad</h2><p>选择Texpad作为编辑器，这个软件颜值还挺高的，就是后续可能需要收费。</p><h2 id="进行编辑"><a href="#进行编辑" class="headerlink" title="进行编辑"></a>进行编辑</h2><p>直接用Texpad打开从github上clone下来的<code>example.tex</code>。打开后还需要进行一些配置，选择左上角的第二个齿轮图标，在General菜单将Typeset Engine设置为XeLaTex。</p><p><img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2020/09/05/5ICmWEYp4w2oMtg.png" alt="1.png"></p><p>进行完上述设置后发现右侧预览栏中缺少应有的图标，并且报错提示缺少<code>FrontAwesome</code>，这部分我是从另一个GitHub仓库找到的这个文字库，链接为<a href="https://github.com/posquit0/Awesome-CV/blob/master/fonts/FontAwesome.ttf">Awesome-CV/FontAwesome.ttf at master · posquit0/Awesome-CV · GitHub</a>。<br>下载后直接双击就可以安装这个文字库了，再回到Texpad就可以发现图标也正常加载了。</p><p>（写简历的过程中越发觉得自己属实太菜了，希望爸爸们好赖给个面试机会吧QAQ）</p><p>11111</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="在Mac上编辑uniquecv"><a href="#在Mac上编辑uniquecv" class="headerlink" title="在Mac上编辑uniquecv"></a>在Mac上编辑uniquecv</h1><p>最近在准备秋招简历，用到了大🔥用了都说好的简历模版<a href="https://github.com/dyinnz/uniquecv">uniquecv</a>。<br>这个简历模版是使用LaTex编写的，因为之前没有用过LaTex，所以想要编辑这份简历模版还需要进行一下配置。</p><h2 id="安装MacTex"><a href="#安装MacTex" class="headerlink" title="安装MacTex"></a>安装MacTex</h2><p>因为我本人用的是<em>mac系统</em>，所以选择<a href="http://www.tug.org/mactex/downloading.html">MacTex</a>作为LaTex的编译器，为了省事直接下载了完整版，要是下载Basic版本的话可以还需要添加一些依赖包。</p><h2 id="安装Texpad"><a href="#安装Texpad" class="headerlink" title="安装Texpad"></a>安装Texpad</h2><p>选择Texpad作为编辑器，这个软件颜值还挺高的，就是后续可能需要收费。</p><h2 id="进行编辑"><a href="#进行编辑" class="headerlink" title="进行编辑"></a>进行编辑</h2><p>直接用Texpad打开从github上clone下来的<code>example.tex</code>。打开后还需要进行一些配置，选择左上角的第二个齿轮图标，在General菜单将Typeset Engine设置为XeLaTex。</p><p><img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2020/09/05/5ICmWEYp4w2oMtg.png" alt="1.png"></p><p>进行完上述设置后发现右侧预览栏中缺少应有的图标，并且报错提示缺少<code>FrontAwesome</code>，这部分我是从另一个GitHub仓库找到的这个文字库，链接为<a href="https://github.com/posquit0/Awesome-CV/blob/master/fonts/FontAwesome.ttf">Awesome-CV/FontAwesome.ttf at master · posquit0/Awesome-CV · GitHub</a>。<br>下载后直接双击就可以安装这个文字库了，再回到Texpad就可以发现图标也正常加载了。</p><p>（写简历的过程中越发觉得自己属实太菜了，希望爸爸们好赖给个面试机会吧QAQ）</p>]]></content>
     
     
       
