@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-05T12:46:09.877Z</updated>
+  <updated>2020-09-19T11:26:12.296Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>美团、步步高一面面经</title>
+    <link href="http://yoursite.com/2020/09/19/%E7%BE%8E%E5%9B%A2%E3%80%81%E6%AD%A5%E6%AD%A5%E9%AB%98%E4%B8%80%E9%9D%A2%E9%9D%A2%E7%BB%8F/"/>
+    <id>http://yoursite.com/2020/09/19/%E7%BE%8E%E5%9B%A2%E3%80%81%E6%AD%A5%E6%AD%A5%E9%AB%98%E4%B8%80%E9%9D%A2%E9%9D%A2%E7%BB%8F/</id>
+    <published>2020-09-19T11:25:31.000Z</published>
+    <updated>2020-09-19T11:26:12.296Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="美团IOS一面凉经"><a href="#美团IOS一面凉经" class="headerlink" title="美团IOS一面凉经"></a>美团IOS一面凉经</h1><p>无IOS经验，女面试官，挺和蔼的，近1h</p><p>自我介绍</p><h2 id="计网"><a href="#计网" class="headerlink" title="计网"></a>计网</h2><ol><li>输入url的过程</li><li>TCP三次握手、四次挥手</li><li>TCP、UDP的区别，UDP的主要用途</li><li>HTTP建立连接（？</li><li>http和https的区别（具体怎么加密、客户端怎么才能信任服务器</li></ol><h2 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h2><ol><li><p>进程、线程区别</p></li><li><p>进程间的通信方式</p></li><li><p>虚拟内存</p></li><li><p>堆和栈的区别</p></li><li><p>一个java文件（源码）是如何变成一个可执行文件的？</p></li><li><p>编译里的一些步骤（词法分析、语法分析…？</p></li><li><p>链接的过程都干了什么？</p></li><li><p>死锁</p></li><li><p>破坏死锁</p></li><li><p>你平时编程怎么保证线程安全</p></li><li><p>解释一下C里static</p></li><li><p>解释一下数组链表的区别</p></li><li><p>删除倒数第k个节点</p></li><li><p>常见的排序算法</p></li><li><p>哪种排序算法不稳定</p></li><li><p>解释一下满二叉树和完全二叉树</p></li></ol><p>做了半小时左右的题<br>编程题：一个2行n列的路，每个路有可能有障碍物，有障碍物则走不了，可以选择走三个方向：朝右、右上、右下，问从左上到右下的几种走法。<br>（动态规划，leetcode有类似的题）</p><h2 id="反问"><a href="#反问" class="headerlink" title="反问"></a>反问</h2><p>评价一下：每个都能说一点，但是每个都不深入🐶</p><p>希望能有二面吧，没有也躺平了🐶</p><h1 id="步步高安卓一面"><a href="#步步高安卓一面" class="headerlink" title="步步高安卓一面"></a>步步高安卓一面</h1><p>无安卓经验，男面试官，态度很好很nice   时长50min</p><p>自我介绍<br>排名<br>问了问了专业课程及分数</p><h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><ol><li>jdk和jre的区别</li><li>平时用什么IDE</li><li>int和long的范围</li><li>接口里可以实现方法吗？</li><li>ArrayList和LinkedList区别</li></ol><p><em>1</em> <em>是否保证线程安全：</em> ArrayList 和 LinkedList 都是不同步的，也就是不保证线程安全；<br><em>2</em> <em>底层数据结构：</em> Arraylist 底层使用的是 Object<em>数组</em>；LinkedList 底层使用的是 <em>双向链表</em> 数据结构（JDK1.6 之前为循环链表，JDK1.7 取消了循环。注意双向链表和双向循环链表的区别，下面有介绍到！）<br><em>3</em> <em>插入和删除是否受元素位置的影响：</em> ① ArrayList<em>采用数组存储，所以插入和删除元素的时间复杂度受元素位置的影响。</em> 比如：执行add(E e)方法的时候， ArrayList 会默认在将指定的元素追加到此列表的末尾，这种情况时间复杂度就是 O(1)。但是如果要在指定位置 i 插入和删除元素的话（add(int index, E element)）时间复杂度就为 O(n-i)。因为在进行上述操作的时候集合中第 i 和第 i 个元素之后的(n-i)个元素都要执行向后位/向前移一位的操作。 ② LinkedList<em>采用链表存储，所以对于</em>add(E e)<em>方法的插入，删除元素时间复杂度不受元素位置的影响，近似 O(1)，如果是要在指定位置</em>i<em>插入和删除元素的话（</em>(add(int index, E element)<em>） 时间复杂度近似为</em>o(n))<em>因为需要先移动到指定位置再插入。</em><br><em>4</em> <em>是否支持快速随机访问：</em> LinkedList 不支持高效的随机元素访问，而 ArrayList 支持。快速随机访问就是通过元素的序号快速获取元素对象(对应于get(int index)方法)。<br><em>5</em> <em>内存空间占用：</em> ArrayList 的空 间浪费主要体现在在 list 列表的结尾会预留一定的容量空间，而 LinkedList 的空间花费则体现在它的每一个元素都需要消耗比 ArrayList 更多的空间（因为要存放直接后继和直接前驱以及数据）。</p><ol start="6"><li>初始化一个ArrayList</li><li>ArrayList是否是线程安全的，还有哪些也是线程安全的容器</li><li>HashMap的底层结构</li><li>Java中的内部类和应用场景</li><li>Java中锁的机制</li><li>GC机制的原理</li><li>通过什么学的Java</li></ol><h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><ol><li>strcpy和strncpy有什么区别</li><li>通过什么方式保证malloc和free配对</li></ol><h2 id="计网-1"><a href="#计网-1" class="headerlink" title="计网"></a>计网</h2><ol><li>TCP跟UDP区别、位于哪一层</li><li>http和https的区别</li><li>证书从哪获取</li><li>三次握手</li><li>http状态码</li></ol><h2 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h2><p>#面经</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;美团IOS一面凉经&quot;&gt;&lt;a href=&quot;#美团IOS一面凉经&quot; class=&quot;headerlink&quot; title=&quot;美团IOS一面凉经&quot;&gt;&lt;/a&gt;美团IOS一面凉经&lt;/h1&gt;&lt;p&gt;无IOS经验，女面试官，挺和蔼的，近1h&lt;/p&gt;
+&lt;p&gt;自我介绍&lt;/p&gt;
+&lt;h2 i</summary>
+      
+    
+    
+    
+    
+    <category term="面经" scheme="http://yoursite.com/tags/%E9%9D%A2%E7%BB%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>在Mac上编辑uniquecv来制作简历</title>
